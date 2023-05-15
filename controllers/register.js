@@ -20,7 +20,11 @@ const login = (req, res) => {
     let validate = bcrypt.compareSync(loginData.password, user.password)
     if (validate === true) {
        const secretkey = "secret@123";
-       const token = jwt.sign(user.email, secretkey)
+       let data = {
+        email: user.email, 
+        password: user.password
+       };
+       let token = jwt.sign({data}, secretkey)
        return res.status(200).send({msg:'User loged in successfully', token})
        user=null;
     }

@@ -8,13 +8,11 @@ const verification = (req, res, next) => {
         return res.send({ msg: "Unauthorised Person" })
     }
     const token = bearerToken.split(" ")[1];
-    const verify = jwt.verify(token, secretkey);
-    if (verify) {
+    try {
+        jwt.verify(token, secretkey);
         next();
-    }
-    else {
+    } catch (error) {
         return res.send({ msg: "Token is not valid" })
     }
-
 }
 module.exports = verification;

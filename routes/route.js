@@ -3,12 +3,12 @@ const {bollywood,hollywood,technology,fitness,food} = require('../controllers/da
 const {login,register} = require('../controllers/register');
 const router = express.Router();
 const verification = require('../middleware/middleware')
-router.get('/bollywood',bollywood)
 
+router.get('/bollywood',verification,bollywood)
 router.get('/hollywood',verification,hollywood)
-router.get('/technology',technology)
-router.get('/fitness',fitness)
-router.get('/food',food)
+router.get('/technology',verification,technology)
+router.get('/fitness',verification,fitness)
+router.get('/food',verification,food)
 
 router.post('/login',login)
 router.post('/register',register)
