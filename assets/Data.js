@@ -1,5 +1,5 @@
 const See =  "./Images/Apple_TV_See_key_art_graphic_header_4_1_show_home.jpg.og.jpg";
-const TheNightMananger =  "./Images/MV5BZDI3MDY3NmUtNTZmZC00YzgyLWFlZDUtYjExNzk3OTBmNzMxXkEyXkFqcGdeQXVyMTM5NDQ2NjMw._V1_.jpg";
+// const TheNightMananger =  "./Images/MV5BZDI3MDY3NmUtNTZmZC00YzgyLWFlZDUtYjExNzk3OTBmNzMxXkEyXkFqcGdeQXVyMTM5NDQ2NjMw._V1_.jpg";
 const logo1 = "./Nature Images/istockphoto-1174989484-612x612.jpeg";
 const logo2 = "./Nature Images/istockphoto-1297919014-612x612.jpeg";
 const logo3 = "./Nature Images/istockphoto-1444128168-612x612.jpeg";
@@ -113,7 +113,7 @@ const data = {
       released: 2023,
       category: "Bollywood",
       image: {
-        one: TheNightMananger,
+        one: 'https://lh3.googleusercontent.com/JuSX2LvZAOsLAD3Bp7CXmh_ScqZWr5Qqv5iCVFQIek1TxBfzIO4kOopJkYshSmEFYZ259K5-DsODUG6Xmcp_-SmbWZeC4kTFCHUqQJ6Hr0aRZyC6NJKV3ZzCiuSWRlLWl3RBGqPNUw=w1920-h1080',
         two:
           "https://c.ndtvimg.com/2023-01/fbr1kq98_anil-kapoor-_625x300_20_January_23.jpg?downsize=360:*",
       },
@@ -191,7 +191,7 @@ const data = {
       category: "Bollywood",
       image: {
         one: "https://wallpaperaccess.com/full/7965060.jpg",
-        two: Uri,
+        two: 'https://photos.google.com/photo/AF1QipOtt3ke_Ll6YPcpltnlCpbR-y0PvjtofF3zwmfb',
       },
       contentLine:
         "Major Vihaan Singh Shergill of the Indian Army leads a covert operation against a group of militants who attacked a base in Uri, Kashmir, in 2016 and killed many soldiers.",
@@ -282,7 +282,7 @@ const data = {
       released: "2019",
       category: "Hollywood",
       image: {
-        one: See,
+        one: 'https://photos.google.com/photo/AF1QipNu2Ag-ggoDpwH5S6ez6GqtxhSMJf60C3411uEQ',
         two: "https://images5.alphacoders.com/105/thumbbig-1052917.webp",
       },
       contentLine:

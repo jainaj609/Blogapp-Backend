@@ -1,5 +1,3 @@
-const See = "./Images/Apple_TV_See_key_art_graphic_header_4_1_show_home.jpg.og.jpg";
-const TheNightMananger = "./Images/MV5BZDI3MDY3NmUtNTZmZC00YzgyLWFlZDUtYjExNzk3OTBmNzMxXkEyXkFqcGdeQXVyMTM5NDQ2NjMw._V1_.jpg";
 const logo1 = "./Nature Images/istockphoto-1174989484-612x612.jpeg";
 const logo2 = "./Nature Images/istockphoto-1297919014-612x612.jpeg";
 const logo3 = "./Nature Images/istockphoto-1444128168-612x612.jpeg";
@@ -8,10 +6,7 @@ const ReactIntroImage = "./React Images/Screenshot 2020-08-10 at 4.28.04 PM/Scre
 const ReactCodeImage = "./React Images/Screenshot 2020-08-10 at 4.31.07 PM/Screenshot 2020-08-10 at 4.31.07 PM.png";
 const ReactRythmImage = "./React Images/rythm.svg";
 const shareImage = "./React Images/share.svg";
-const Uri = "./Images/URI_The_Surgical_Strike.jpg";
-const Cutpulli = "./Images/Cuttputlli-1920x1080.jpeg";
-const Ford = './Images/Ford.png';
-const Lost = './Images/MV5BMDVlOGVkNTUtZjFkNS00NmY5LTg4YTUtZTA4NWExZDI1ZjNjXkEyXkFqcGdeQXVyMTU1MTIzMzg3._V1_.jpg'
+
 const data = {
     react: {
         MenImage,
@@ -113,7 +108,7 @@ const data = {
             released: 2023,
             category: "Bollywood",
             image: {
-                one: TheNightMananger,
+                one: "https://lh3.googleusercontent.com/JuSX2LvZAOsLAD3Bp7CXmh_ScqZWr5Qqv5iCVFQIek1TxBfzIO4kOopJkYshSmEFYZ259K5-DsODUG6Xmcp_-SmbWZeC4kTFCHUqQJ6Hr0aRZyC6NJKV3ZzCiuSWRlLWl3RBGqPNUw=w1920-h1080",
                 two:
                     "https://c.ndtvimg.com/2023-01/fbr1kq98_anil-kapoor-_625x300_20_January_23.jpg?downsize=360:*",
             },
@@ -153,7 +148,7 @@ const data = {
             released: 2023,
             category: "Bollywood",
             image: {
-                one: Lost,
+                one: "https://lh3.googleusercontent.com/VL5I4c9_My09hpRT9U-6ehjOQFkSIVksN0KX5ufGq0jRn7OE-6lXwEqrPXjhoj4IRLj9b21v_D8oNpPLsc2YRT5FVyZdCKhoYelKz_53XPmZhBIC-I_fhFdRtHj-tz72O5rUc5pQpw=w1920-h1080",
                 two:
                     "https://i0.wp.com/dmtalkies.com/wp-content/uploads/2023/02/Lost-Ending-Explained-Yami-Gautam-as-Vidhi-Sahani-Rahul-Khanna-as-Varman-and-Tushar-Pandey-as-Ishaan.jpg?resize=696%2C391&ssl=1",
             },
@@ -172,7 +167,7 @@ const data = {
             released: "2022",
             category: "Hollywood",
             image: {
-                one: Cutpulli,
+                one: "https://lh3.googleusercontent.com/GTtBOC-tMNd0c-BAjcgVqwFogDDFsWi1TQXBcA8zAoUdSbDosH3xNXBpG43J_-S37nLnKp-w3rmPHsSl0CCFPzQL8j0Z1tfYy7zJwN9H7Zm4V67TwLJ_YTTU3__v5pa545zYzp2tLQ=w1920-h1080",
                 two: "https://wallpapercave.com/dwp1x/wp11435185.jpg",
             },
             contentLine:
@@ -191,7 +186,7 @@ const data = {
             category: "Bollywood",
             image: {
                 one: "https://wallpaperaccess.com/full/7965060.jpg",
-                two: Uri,
+                two: "https://lh3.googleusercontent.com/SoVMWLKpWrtJG03frm7KEWegYftvuMMWkx7n0GtaMcOeiHag5cDTTeh7MgL_OmtM0Z-hy3l3Xw7nIWvRcT5LoNrXv7wKDH2-T9IL2jygSogl6sD-ni_hWyZ8n9oxqSbvjrlNcmsOKg=w1920-h1080",
             },
             contentLine:
                 "Major Vihaan Singh Shergill of the Indian Army leads a covert operation against a group of militants who attacked a base in Uri, Kashmir, in 2016 and killed many soldiers.",
@@ -282,7 +277,7 @@ const data = {
             released: "2019",
             category: "Hollywood",
             image: {
-                one: See,
+                one: "https://lh3.googleusercontent.com/wlI5Hspe-hTWHbIyUlZgRRrg3l47XQj-JBwhiaV_Lwx_QKnBqEWDSSKum3f2IHlv7JJ00qXjLJA8nrf83cukFs9TcZey2yOB5esnybl4vQdLCDYUT4_hWnxD9hr26bs7sTlTmFE3FQ=w1920-h1080",
                 two: "https://images5.alphacoders.com/105/thumbbig-1052917.webp",
             },
             contentLine:
@@ -395,7 +390,7 @@ const data = {
             released: "2023 Ford's Mustang Mach-E SUV",
             category: "Technology",
             image: {
-                one: Ford,
+                one: "https://lh3.googleusercontent.com/2iSO1uIuMSrrtzgDIUG3pVizAsz5PHdZkJ7OJ01YxAZ5NHIMNm-rpLCW9TFKm2IBW-jOEuVt8qOukNQDt0dJWs8dzK-mG8ll4okysPlRRLG6BfnCgRw6-G1Oc1Gr3axR-y3OF791vQ=w1920-h1080",
                 two: "https://www.motortrend.com/uploads/sites/5/2021/04/BlueCruise_Ford-F-150_01.jpg?fit=around%7C875:492",
             },
             contentLine: "Ford drivers will legally be able to take their hands off the wheel on the move after its BlueCruise technology has been approved in the UK.",
@@ -787,10 +782,10 @@ const technology = (req, res) => {
     return res.send({Technology})
 }
 const fitness = (req, res) => {
-    return res.send({Fitness })
+    return res.send({Fitness})
 }
 const food = (req, res) => {
-    return res.send({Food })
+    return res.send({Food})
 }
 
 module.exports = {
