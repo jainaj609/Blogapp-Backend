@@ -259,7 +259,7 @@ const data = {
             category: "Hollywood",
             image: {
                 one:
-                    "https://www.sbs.com.au/movies/sites/sbs.com.au.film/files/great-wall-backdrop.jpg",
+                    "https://wallpapercave.com/dwp1x/wp1887077.jpg",
                 two: "https://wallpapercave.com/dwp1x/wp3142517.jpg",
             },
             contentLine:

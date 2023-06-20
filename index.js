@@ -10,7 +10,7 @@ app.use(cors({
 app.use('/app/category', route);
 
 
-app.get('/home', (req,res)=>{
+app.get('/', (req,res)=>{
     res.send("<h1>API is running fine</h1>")
 })
 
